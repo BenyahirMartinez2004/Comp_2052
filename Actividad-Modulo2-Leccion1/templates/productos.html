@@ -1,0 +1,19 @@
+{% extends 'base.html' %} <!--Revisa about html para contexto-->
+{% block title %}Inventario de Productos{% endblock %}
+{% block content %}
+    <h2 id="headerP2">Productos Disponibles</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Disponible</th>
+        </tr>
+        {% for producto in data.productos %}
+        <tr id="productos">
+            <td>{{ producto.nombre }}</td>
+            <td>{{ producto.precio }}</td>
+            <td>{{ "Sí" if producto.disponible else "No" }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
