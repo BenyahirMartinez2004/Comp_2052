@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="Página-1" id="nogy2QjrxQN4qC30S85e">
+    <mxGraphModel dx="1228" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NcRX_W1QJ7ujJDfG2jUD-1" target="NcRX_W1QJ7ujJDfG2jUD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-1" value="Cliente" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="354" y="285" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcRX_W1QJ7ujJDfG2jUD-2" target="NcRX_W1QJ7ujJDfG2jUD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NcRX_W1QJ7ujJDfG2jUD-13" target="NcRX_W1QJ7ujJDfG2jUD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;Servidor&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;GET/info&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;POST/mensaje&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;align=center;" vertex="1" parent="1">
+          <mxGeometry x="336.5" y="451" width="155" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-5" value="GET/info" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" y="652" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-7" value="Información del App" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="113" y="762" width="226" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NcRX_W1QJ7ujJDfG2jUD-5" target="NcRX_W1QJ7ujJDfG2jUD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcRX_W1QJ7ujJDfG2jUD-11" target="NcRX_W1QJ7ujJDfG2jUD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-11" value="Post/info" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="516" y="646" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NcRX_W1QJ7ujJDfG2jUD-2" target="NcRX_W1QJ7ujJDfG2jUD-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492" y="529" as="sourcePoint" />
+            <mxPoint x="576" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-13" value="Client.rest" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="534" y="488.5" width="122" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NcRX_W1QJ7ujJDfG2jUD-15" value="Mensaje personalizado" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="463" y="766" width="226" height="51" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
