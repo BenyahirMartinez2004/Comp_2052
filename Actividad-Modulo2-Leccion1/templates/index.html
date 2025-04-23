@@ -1,0 +1,40 @@
+{% extends 'base.html' %} <!--Revisa about html para contexto-->
+{% block title %}Inicio{% endblock %}
+{% block content %}
+<img src="../static/techBanner.jpg" alt="techBanner" width="1450" height="333">
+
+<h2>Bienvenidos a TechNova</h2>    
+<div class="container">
+    <h3>
+        Tu destino confiable para lo último en tecnología. En TechNova encontrarás 
+        una amplia selección de productos tecnológicos de alta calidad: desde laptops, smartphones y 
+        tablets, hasta accesorios inteligentes, periféricos y soluciones para el hogar conectado. 
+    </h3>
+    <hr>
+    <h3>
+        Nos apasiona la innovación y trabajamos para ofrecerte siempre lo mejor en tecnología 
+        con atención personalizada, envíos rápidos y precios competitivos. Ya seas un profesional,
+         estudiante, gamer o entusiasta de la tecnología, tenemos justo lo que necesitas para estar siempre 
+         conectado y actualizado.
+    </h3>
+</div>
+
+<h2>Productos en venta</h2>
+<div class="card-container">
+    <div class="card1">
+        <img src="../static/Smartphone.jpg" alt="Smartphone">
+        <h3>Smartphones</h3>
+    </div>
+
+    <div class="card1">
+        <img src="../static/computadoras.jpg" alt="Computadoras">
+        <h3>Computadoras</h3>
+    </div>
+
+    <div class="card1">
+        <img src="../static/mouse.jpg" alt="Accesorios">
+        <h3>Accesorios</h3>
+    </div>
+</div>
+
+{% endblock %}
