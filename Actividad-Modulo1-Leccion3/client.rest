@@ -1,0 +1,39 @@
+# Probar la ruta GET /info
+GET http://127.0.0.1:5000/info
+Content-Type: application/json
+
+###
+
+# Probar la ruta POST /crear_usuario
+POST http://127.0.0.1:5000/crear_usuario
+Content-Type: application/json
+
+{
+  "Id": 1,
+  "nombre": "Adriana Marrero",
+  "correo": "adri#M2s@gmail.com"
+}
+
+###
+
+# Probar la ruta GET /usuarios
+GET http://127.0.0.1:5000/usuarios
+Content-Type: application/json
+###
+
+# Probar la ruta POST /crear_producto
+POST http://127.0.0.1:5000/crear_producto
+Content-Type: application/json
+
+{
+  "Idproducto": 1,
+  "nombre": "Laptop (HP)",
+  "precio": "1200.00",
+  "disponible": true
+}
+
+###
+
+# Probar la ruta GET /productos
+GET http://127.0.0.1:5000/productos
+Content-Type: application/json
