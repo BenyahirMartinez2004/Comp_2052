@@ -1,0 +1,19 @@
+{% extends "base.html" %} 
+
+{% block title %}
+    Iniciar Seción
+{% endblock %}
+
+{% block content %}
+  <h2 class="title">Formulario de Login</h2>
+  <form method="POST" class="process-form">
+
+    <label for="username">Coloque su username:</label>
+    <input type="text" name="username" placeholder="Username" required />
+
+    <label for="password">Entra su password:</label>
+    <input type="password" name="password" placeholder="Password" required />
+    <hr>
+    <input type="submit" class="btn btn-primary" value="Login" />
+  </form>
+{% endblock %}

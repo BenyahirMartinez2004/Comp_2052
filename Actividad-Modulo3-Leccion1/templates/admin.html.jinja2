@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Panel{% endblock %}
+
+{% block content %}
+<h2>Bienvenido, {{ nombre }} (Administrador)</h2>
+<p>Estás en el panel de administración.</p>
+<a href="{{ url_for('logout') }}" class="btn btn-secondary">Logout</a>
+{% endblock %}
